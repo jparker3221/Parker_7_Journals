@@ -1,0 +1,11 @@
+	Today you will set up a working git directory
+	
+Create a journal in the Journal repo you created
+Give it the name Parker_7_0910.txt
+Explain what we did yesterday (with github) and why
+MORE SPECIFICALLY
+Describe the git steps you will you every day
+We will use these commands everyday:
+git add filename
+git commit -m "This is my journal for date"
+git push -u origin master
