@@ -1,0 +1,7 @@
+What is psuedocode? and what is it good for?
+More specifically - Why will we use it?
+What about the steps of problem solving?
+Psuedocode is fake code that allows people to see the logical steps behind the
+code before you put it into the computer readable format. Psuedocode is used 
+for problem solving by allowing to see what you will do to replace the tainted
+code.
