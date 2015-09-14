@@ -1,0 +1,8 @@
+Some students may indicate "just give me teh codez [sic], I don;t want to practice organizing
+my thoughts."
+How would you explain the importance of organizing one's thoughts and not proceeding in a
+haphazard mannner?
+
+Organizing your thoughts and developing a plan is extremely important in any activity, especially
+in coding where one mistake ruins the entire program. This thought process will lead to errors
+and cause the coder to be unsuccessful in his work.
