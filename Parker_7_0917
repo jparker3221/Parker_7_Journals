@@ -1,0 +1,10 @@
+    What are five different Java data types? What are they used for?
+
+The five different data types are
+int which are whole numbers
+float which is a 32 bit data type that we will use most
+char which is a any character
+boolean which records true and false
+string is a collection of chars
+and short long and double are other data types that have 16, 64, and 64 bits respectively
+
