@@ -1,0 +1,4 @@
+Why is it important that you use the naming convention specified when naming files?
+The file cannot be found and Mr. Davis cannot grade it, it needs to be named exactly as it should be
+What is the command to copy in Linux? to copy all of a directory to the current directory?
+cp is the command to copy, and you can select and entire directory to copy all of it over
