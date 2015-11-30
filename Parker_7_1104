@@ -1,8 +1,11 @@
 
 What is a method?
-
+A shortcut to a section of code.
 Which methods did you use and how did you use them in your guessing game program?
-
+I used methods to decide difficulty in my game.
 What is a while loop?
-
+a loop that loops code while a condition is true.
 How did you use a while loop, boolean, and counter in your guessing game?
+I used a while loop that ran while you were still "alive."
+I used a boolean to see if playing again would run.
+I used a counter to tick down the lives until you lose.
