@@ -1,8 +1,9 @@
 
 What are strings?
-
+A collection of characters
 What are they good for?
-
+Defining things that cant be integers
 What are some string methods?
-
+length() that finds the length of a string.
 How do we identify string methods?
+They are followed by a string and a period.
