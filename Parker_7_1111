@@ -1,5 +1,6 @@
 In your game, what challenges must your player solve?
-
+They have to overcome multiple enemies and directional choices.
 How will you specifically track whether they have been solved?
-
+They will be marked with booleans when they have passed an area.
 Provide variable names and types. Classes if applicable.
+boolean dungeonB2cleared; and boolean armorycollected;
