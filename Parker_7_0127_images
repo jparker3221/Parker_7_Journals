@@ -1,0 +1,4 @@
+How do you add an image to a slick game?
+I added images by telling the computer to render render a specific image in the render section
+Where is the image drawn? [What code? Be specific.] 
+The object is drawn in the render section of the game
