@@ -1,0 +1,3 @@
+Describe what you will have to do to clean up your code to make the program more your own (and legible). 
+I need to move everything not in init, render, or update into its own class
+aswell as adding my comments and deleting ones that were not put there by me
