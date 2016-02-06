@@ -1,0 +1,6 @@
+What is a class constructor?
+A class constructer is a certain bit of code that does fuctions outside of the class
+What should be included in a class constructor for orbs? Why?
+Getters and setters because they are needed to fetch and position the orbs coordinates
+What methods should the orb have? why?
+The orb needs methods such as getX(), getY(), setX(), setY() etc.
