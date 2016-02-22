@@ -1,0 +1,2 @@
+How would one check to see whether weapons damage enemies or objects in Slick?
+You could use the a method to see if the enemies health or isVisible value is altered.
