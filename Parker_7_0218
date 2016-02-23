@@ -1,0 +1,54 @@
+Explain this code:
+public Animation Playeranime, up, down, left, right, sprite, wait;
+    public Player() throws SlickException {
+        SpriteSheet runningSS = new SpriteSheet(
+                "res/ogrespritesheet.png", 64, 64, 0);
+        up = new Animation();
+        up.setAutoUpdate(true);
+        up.addFrame(runningSS.getSprite(0, 8), 330);
+        up.addFrame(runningSS.getSprite(1, 8), 330);
+        up.addFrame(runningSS.getSprite(2, 8), 330);
+        up.addFrame(runningSS.getSprite(3, 8), 330);
+        up.addFrame(runningSS.getSprite(4, 8), 330);
+        up.addFrame(runningSS.getSprite(5, 8), 330);
+        up.addFrame(runningSS.getSprite(6, 8), 330);
+        up.addFrame(runningSS.getSprite(7, 8), 330);
+        up.addFrame(runningSS.getSprite(8, 8), 330);
+        
+It declares an up animation taking pictures from the 8th row
+
+
+Why would it be unproductive to memorize Slick syntax - what are the skills we were trying to practice?
+Slick is not world spread and permanent, so we should focus on problem solving and pattern recognition to
+get the most return on investment (ROI).
+
+What is an array?
+An array is an ordered collection of one datatype
+
+How do we make an array?
+string [] stringarray = {“string1, string2, string3”};
+//creats an array with 3 different values
+int [] myFavoriteNumbers = new int [42];
+//creates an integer array 42 ints long, they have null values
+
+What is an ArrayList?
+An ArrayList can contain multiple data types, very similar to an array
+To make an ArrayList with a specific type, we use <>
+ArrayList<stuff> things = new ArrayList();
+things.add(moreStuff);
+
+What is the difference between an array and an ArrayList?
+An array has a static size, whereas ArrayLists have dynamic sizes
+
+How could we make a health counter for an avatar?
+public float playerhealth = 500;
+public boolean isAlive(){
+if(playerhealth >= 0){
+        return false;
+}else{
+return true;
+}    
+}
+while(isAlive){
+    health -= 2.5;
+}
