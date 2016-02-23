@@ -1,0 +1,8 @@
+How can / will you make the orb move in the direction you are facing?
+You can set the direction of the orb with getters and setters, getting the player's direction and then setting the 
+orb's direction to the player's direction
+Explain and provide specific code.
+public void setDirection(){
+  return player.getDirection()
+}
+would do the job
