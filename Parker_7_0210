@@ -1,0 +1,17 @@
+Make a list of ten problems (e.g., FAQs) you have faced when adding orbs to your game.
+
+Try to provide specific code examples
+
+creating the orb from scratch were hard, and the getters and setters were hard to concept to start
+
+1. Movement
+2. Hitbox
+3. Making the orb disappear
+4. Making it kill enemies
+5. Making the orb visible.
+orb.setIsVisible(true);
+6. Shooting the orb
+7. Direction of the orb
+8. Making it follow me
+9. Making the orbs/folder
+10. Setting a time limit on the orb
