@@ -1,10 +1,12 @@
 What does the code below do?
-It browses through an array printing a "." until it sees one of the marked coordinates with X, then it prints those coordinates
+It browses through an array printing a "." until it sees one of the marked coordinates with X, 
+then it prints an x in those coordinates
 How could you make it print an X? i.e., what array values would you change?
-mark (0,0) (1,1) (2,2) etc. aswell as (0,8) (1,7) (2,6) as X
+mark (0,0) (1,1) (2,2) etc. aswell as (0,8) (1,7) (2,6) equal to x
 How could you use this to make a 5 in a row game?
 You could have this check for 5 "x" in a row and set a winstate if true
- import java.util.Arrays;
+
+import java.util.Arrays;
 
 public class SampleArray {
 
