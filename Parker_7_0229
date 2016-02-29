@@ -1,0 +1,51 @@
+
+
+ 1. How do we make a class? What code comes at the beginning?
+
+public class Indonesia{
+
+}
+
+ 2. Donut Bismarck = new Donut();
+ is this a class constructor?
+No, a class constructor is a method inside of the class that you can use to malipulate the values in the class
+how you create instances and uses a class constructor
+ 3. How do we make a class with values and a class constructor?
+public class Donut{
+  int x,y;
+  boolean isGlazed;
+  boolean hasJelly;
+  float temperature;
+  public Donut(boolean a, boolean b, float c){
+    this.isGlazed = a;
+    this.hasJelly = b;
+    this.temperature = c;
+  }
+  // a getter gets and returns a variable value
+  // usually is a public method to get a private value
+  public float getTemperature(){
+    return this.Temperature
+  }
+  public boolean getHasJelly(){
+    return this.hasJelly
+  }
+  public void setTemperature(float c){
+    this.Temperature = c;
+  }
+  public void set setHasJelly(boolean a){
+    this.hasJelly = a;
+  }
+}
+
+ 4. Explain in your own words - what is a getter? what does it do?
+
+ 5. What is a setter? what does it do? Give an example.
+
+
+
+ 6. What is in An array of Breakfast? How would you create one?
+int[] coolNumbers; //array of ints
+string[] coolWords; //array of strings
+boolean[][] blocked; //2d array of booleans
+Breakfast[] yummies;
+ 
