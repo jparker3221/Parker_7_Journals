@@ -32,20 +32,28 @@ public class Donut{
   public void setTemperature(float c){
     this.Temperature = c;
   }
-  public void set setHasJelly(boolean a){
+  public void setHasJelly(boolean a){
     this.hasJelly = a;
   }
 }
 
  4. Explain in your own words - what is a getter? what does it do?
-
+It gets a private variable to use in a public setting
  5. What is a setter? what does it do? Give an example.
-
+It sets recieved values to specific instances
 
 
  6. What is in An array of Breakfast? How would you create one?
 int[] coolNumbers; //array of ints
 string[] coolWords; //array of strings
 boolean[][] blocked; //2d array of booleans
-Breakfast[] yummies;
- 
+Breakfast[] JarzombekFamilyBreakfast;
+Breakfast Joseph = new Breakfast(4,8,2,true);
+Breakfast Sarah = new Breakfast(2,0,0,true);
+Breakfast Papa = new Breakfast(4,8,8,false);
+Breakfast Mama = new Breakfast(3,0,0,false);
+JarzombekFamily Breakfast = {Joseph, Sarah, Papa, Mama};
+7. Using getters and setters:
+Donut ChocolateFilled = new Donut(true,false,100);
+ChocolateFilled.setTemperature(72);
+ChocolateFilled.getIsGlazed();
