@@ -1,0 +1,16 @@
+1.) Assembly is a low level language that uses no libraries etc.
+
+2.) Assembly gives direct and complete control over system hardware.
+
+3.) Assembly language programs are not user-friendly. Learning the assembly is more 
+difficult than learning a high level langauge like Java. Programming in the assembly language 
+is a tedious and error-prone procress. High-level languages should be natural preference for 
+common applications.
+
+4.) High level language programs are user-friendly, low levels are not. In high-level 
+languages, the program development is faster, fewer lines of code, and the program 
+maintenance is easier.
+
+5.) Java is high level language, because it uses libraries and has a more complex syntax
+
+6.) Assembly is low level language, because it uses no libraries and is easy for the computer
