@@ -10,9 +10,9 @@ cube = num * num * num
 return cube;
 }
     Create the class, an object, and class constructor for class student
-public class Student {
-public Student(String students) {
-Student stud = new Student();
+public class Student() {
+public Student(String stu) {
+Student stu = new Student();
 }
     Describe - if we were to continue with Arduino - what would you create?
   I would create a machine that would use a motor and make it "dance" to the music
