@@ -1,0 +1,40 @@
+1.) I typed elf64 because it refers to the 64 byte executable linkable file 
+type to run the code.
+
+2.) ld is the compiler and loads.
+
+3.) I did not have to use chmod to make the sample executable because it does 
+not require the command, it either needs a more detailed command or it doesn't 
+need something more complex than what it is simply doing.
+
+4.)   GNU nano 2.4.2              File: sample.asm                          Modified  
+
+global _start
+        section.text
+_start:
+        ;write(1, message, 26)
+        mov     rax, 1                  ; system call 1 is write
+        mov     rdi, 1                  ; file handle 1 is stdout
+        mov     rsi, message            ; address of string to output
+        mov     rdx, 26                 ; number of bytes
+        syscall                         ; invoke operating system to do the write
+
+        ; exit(0)
+        mov     eax, 60                 ; system call 60 is exit
+        xor     rdi, rdi                ; exit code 0
+        syscall                         ; invoke operation system to exit
+message:
+        db      "Hi, my name is Jackson", 10        ; note the newline at the$
+
+
+
+5.) I had to change the number of characters so it would print out the entire 
+line.
+
+6.) Assembly is not quick and easy because to even print out a one liner, code 
+takes up more space than Java because it's libraries is doing the work at the 
+file loader level.
+
+7.) Low level means the user is working at the lowest level without any support 
+of libraries, such as in Java. This also means that it is "easy" for the computer 
+but not humans.
