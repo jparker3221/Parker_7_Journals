@@ -1,0 +1,18 @@
+
+    Explain casting. Up-casting, Down-casting.
+    Give a specific code example for up-casting
+    int fish = 2;
+    double trouble;
+    trouble = fish;
+    
+    Give a specific code example for down-casting
+    double bob = 3.14567;
+    int i;
+    i = (int)bob;
+    
+    Give a specific code example for converting a char to a String
+    char c = 'c';
+    String sally;
+    sally = ""+c;
+    What is the range of values for byte? Why?
+    -128 - 127 because it counts zero
